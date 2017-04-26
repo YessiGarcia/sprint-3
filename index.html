@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<title>Lift clone</title>
 	<link rel="stylesheet" href="assets/css/main.css">
-	<link rel="stylesheet" href="assets/css/main.1">
+	<link rel="stylesheet" href="assets/css/main-1.css">
 </head>
 <body>
     <nav id="navegador" class="navigation">
@@ -34,12 +34,12 @@
     <section>
     	<div>
 		<video src="assets/img/hero-video.mp4"></video>
-		<h1>Turn Miles</h1>
-		<h2>Into Money</h2>
-		<p>SIGN UP TO DRIVE WHITH LYFT</p>
+		<h1 class="h">Turn Miles</h1>
+		<h2 class="h">Into Money</h2>
+		<p id="sign-drive">SIGN UP TO DRIVE WHITH LYFT</p>
 	</div>
 
-	<form>
+	<form >
 		<div class="">
 			<label for="phone" class="placeholder ">Phone Number</label>
 			<input type="tel" name="phone">
@@ -66,20 +66,20 @@
 	    	<input type="checkbox">
 	    	<label for="agreeToTerms">
 	    		<span class="text-small">
-	    			I agree to 
-	    			<a href="/terms">Lyft´s Terms of Service</a>
+	    			I agree to
+	    			<a href="/terms" class="form">Lyft´s Terms of Service</a>
 	    		</span>
 	    	</label>
 	    </div>
 		<div>
-			<button type="submit">Become a Driver</button>
-			<button type="button">Sing Up to Ride</button>
+			<button type="submit" class="btn-driver">Become a Driver</button>
+			<a href="#" class="sign-ride" id="driver">Sign Up to Ride</a>
 		</div>
 		<div>
-			<p>"Already applies?"</p>
-			<a href="#">Check the status of your application here.</a>
-			<p>"Earn money for inviting friends to drive."</p>
-			<a href="#">Learn More</a>
+			<p id="already">Already applied?</p>
+			<a href="#" id="forms">Check the status of your application here.</a>
+			<p id="earn">Earn money for inviting friends to drive.</p>
+			<a href="#" id="forms">Learn More</a>
 
 		</div>
 	</form>
@@ -87,8 +87,8 @@
             <img src="assets/img/img1aileen.png" class="imglink" id="img1" alt="">
             <video id="video1" src="https://www.youtube.com/watch?v=fE8y9V-XyWw" autoplay poster="posterimage.jpg">
             </video>
-            <h3>WATCH</h3>
-            <h2>AMPLIFY YOUR RIDE</h2>
+            <h3 class="watch">WATCH</h3>
+            <h2 class="vid-description">AMPLIFY YOUR RIDE</h2>
             <p> class="parrafo izquierdo">Lyft’s new emblem, Amp,
                is the secret to smooth pickups. Lighting up dashboards nationwide,
                the device makes it easy for passengers and drivers to find each other.</p>
@@ -97,8 +97,8 @@
             <img src="assets/img/img2aileen.png" class="imglink" id="img2"  alt="">
             <video id="video2" src="https://www.youtube.com/watch?v=r5M018pEkL4"  autoplay poster="posterimage.jpg">
             </video>
-            <h3>WATCH</h3>
-            <h2>JUNE</h2>
+            <h3 class="watch">WATCH</h3>
+            <h2 class="vid-description">JUNE</h2>
             <p class="parrafo derecho">In an animated short film by Academy Award-winner
                John Kahrs, a lonely widow in historic South Chicago is empowered to start
                sharing the ride — and sharing her life, too.<p>
@@ -107,8 +107,8 @@
             <img src="assets/img/img3aileen.png" class="imglink" id="img3" alt="">
             <video  id="video3"src="https://www.youtube.com/watch?v=V8aoSjGmtOU" autoplay poster="posterimage.jpg">
             </video>
-            <h3>WATCH</h3>
-            <h2>A GOOD THING GOING</h2>
+            <h3 class="watch">WATCH</h3>
+            <h2 class="vid-description">A GOOD THING GOING</h2>
             <p class="parrafo izquierdo">Launching on TV and online,
               “Ride on the Bright Side” shows how Lyft continues to prioritize happy
               drivers, short ETAs, and safety.</p>
