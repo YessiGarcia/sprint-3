@@ -1,4 +1,4 @@
-.logo {
+.logo1 {
 	display: inline-block;
 	width: 75px;
 	height: 50px;
@@ -62,8 +62,76 @@ li {
 
 .watch{
 	font-size: 0.85rem;
+	color: #333447;
 
 }
-.vid-description {
-	color: #f3f3f5;
+h2.vid-description {
+	color: #333447;
+	font-size: 1.15em;
+}
+
+.parrafo-izquierdo {
+	color: #333447;
+	font-size: 1rem;
+
+}
+.parrafo-derecho {
+	color: #333447;
+	font-size: 1rem;
+
+}
+
+.drive-help {
+	font-size: 20px;
+}
+
+.drivers {
+	font-size: 0.85rem;
+}
+
+.partner-help {
+	font-size: 20px;
+}
+
+.partners {
+	font-size: 0.85rem;
+}
+
+.learn-help {
+	font-size: 20px;
+}
+
+.learners {
+	font-size: 0.85rem;
+}
+
+.drive-help:hover {
+	color: #ff00bf;
+
+}
+.drivers:hover {
+	color: #ff00bf;
+}
+.partner-help:hover {
+	color: #ff00bf;
+}
+.partners:hover {
+	color: #ff00bf;
+}
+
+.learn-help:hover {
+	color: #ff00bf;
+}
+
+.learners:hover {
+	color: #ff00bf;
+}
+
+#nav-footer{
+	background-color: #333447;
+}
+
+#morado{
+	background-color: #74278e;
+	color: white;
 }
