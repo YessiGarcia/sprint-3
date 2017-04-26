@@ -6,12 +6,34 @@ nav{
   width: 100%;
   height: 50px;
 }
-seccion{
+/*seccion{
   background-image: url(https://drive.google.com/open?id=0B6QwL6rGulDtU3ZsTmVJMnhteEk);
   width: 100%;
   height: 356.71px;
   position: absolute;
+}*/
+#contenedor{
+  background-color: red;
+  width: 100%;
+  height: 1000px;
+  margin-left: 0;
+  margin-right: 0;
+  position: relative;
 }
-seccion1{
-  background-color: linear-gradient(left top, black, purple);
+.seccionInter{
+  text-align: center;
+  position: absolute;
+  background-color: #585858;
+  width: 359px;
+  height: 404px;
+}
+.imagen1{
+  width: 10px;;
+  height: 404px;
+}
+.seccionInter2{
+  text-align: center;
+  background-color: #585858;
+  width: 359px;
+  height: 404px;
 }
