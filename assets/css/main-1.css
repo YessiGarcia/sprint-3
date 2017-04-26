@@ -1,0 +1,17 @@
+nav{
+  position: fixed;
+  background-color: transparent;
+  margin-top: 0;
+  margin-bottom: 2px;
+  width: 100%;
+  height: 50px;
+}
+seccion{
+  background-image: url(https://drive.google.com/open?id=0B6QwL6rGulDtU3ZsTmVJMnhteEk);
+  width: 100%;
+  height: 356.71px;
+  position: absolute;
+}
+seccion1{
+  background-color: linear-gradient(left top, black, purple);
+}
