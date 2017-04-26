@@ -1,4 +1,3 @@
-
 .logo {
 	display: inline-block;
 	width: 75px;
@@ -7,12 +6,64 @@
 }
 .menu {
 	;
-	list-style: none;
+	text-decoration: none;
+
 }
 a {
 	color: #cccdd1;
-	
+	text-decoration: none;
 }
 nav {
 	background-color: #261f3c;
+}
+li {
+	list-style: none;
+
+}
+.btn-driver {
+	background-color: #ff00bf;
+	width: 200px;
+	height: 50px;
+	font-size: 20px;
+	border: none;
+	border-radius: .5rem;
+	padding: 5px;
+	color: white;
+}
+.sign-ride {
+	background-color: transparent;
+}
+#forms {
+	color: #ff00bf;
+	font-size: 12px;
+}
+
+.h {
+	font-size: 2em;
+	color: #352384;
+}
+#sign-drive {
+	color: #352384;
+}
+.placeholder {
+	color: #bfc0c5;
+}
+.text-small {
+	font-size: 12px;
+}
+#already {
+	color: #bfc0c5;
+	font-size: 12px;
+}
+#earn {
+	color: #bfc0c5;
+	font-size: 12px;
+}
+
+.watch{
+	font-size: 0.85rem;
+
+}
+.vid-description {
+	color: #f3f3f5;
 }
